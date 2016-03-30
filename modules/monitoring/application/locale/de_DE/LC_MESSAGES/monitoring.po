@@ -2,21 +2,21 @@
 # Copyright (C) 2016 Icinga Development Team
 # This file is distributed under the same license as Monitoring Module.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Monitoring Module (2.1.2)\n"
 "Report-Msgid-Bugs-To: dev@icinga.org\n"
 "POT-Creation-Date: 2016-02-29 14:40+0000\n"
-"PO-Revision-Date: 2015-11-16 14:50+0100\n"
+"PO-Revision-Date: 2016-03-30 13:12+0200\n"
 "Last-Translator: Thomas Gelf <thomas@gelf.net>\n"
 "Language: de_DE\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: /vagrant/modules/monitoring/application/controllers/ChartController.php:375
 msgid " Down Hosts (Handled)"
@@ -201,10 +201,10 @@ msgid "%s is currently not up and running"
 msgstr "%s ist momentan nicht in Betrieb"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/components/selectioninfo.phtml:12
-#, fuzzy, php-format
+#, php-format
 msgctxt "Multi-selection count"
 msgid "%s row(s) selected"
-msgstr "gewählte Reihen"
+msgstr "%s Zeilen ausgewählt"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/hostservicechecks.phtml:19
 #, php-format
@@ -381,11 +381,11 @@ msgstr "Eine Benachrichtigung für dieses Problem wurde %s gesendet"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:63
 msgid "ACKNOWLEDGED"
-msgstr ""
+msgstr "BESTÄTIGT"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:68
 msgid "ACKNOWLEDGEMENT REMOVED"
-msgstr ""
+msgstr "BESTÄTIGUNG ENTFERNT"
 
 #: /vagrant/modules/monitoring/application/views/scripts/hosts/show.phtml:30
 #: /vagrant/modules/monitoring/application/views/scripts/services/show.phtml:29
@@ -621,21 +621,19 @@ msgid "Allow deleting host and service downtimes"
 msgstr "Erlaube das Löschen von Downtimes für Hosts und Services"
 
 #: /vagrant/modules/monitoring/configuration.php:60
-#, fuzzy
 msgid ""
 "Allow processing commands for toggling active checks on host and service "
 "objects"
 msgstr ""
-"Erlaube die Verarbeitung von Kommandos zum Setzen von Eigenschaften von "
-"Host- und Serviceobjekten"
+"Erlaube die Verarbeitung von Kommandos zum Umschalten von aktiven "
+"Überprüfungen von Host- und Serviceobjekten"
 
 #: /vagrant/modules/monitoring/configuration.php:72
-#, fuzzy
 msgid ""
 "Allow processing commands for toggling event handlers on host and service "
 "objects"
 msgstr ""
-"Erlaube die Verarbeitung von Kommandos zum Setzen von Eigenschaften von "
+"Erlaube die Verarbeitung von Kommandos zum Umschalten von Event-Handlern von "
 "Host- und Serviceobjekten"
 
 #: /vagrant/modules/monitoring/configuration.php:52
@@ -653,31 +651,28 @@ msgstr ""
 "Host- und Serviceobjekten"
 
 #: /vagrant/modules/monitoring/configuration.php:76
-#, fuzzy
 msgid ""
 "Allow processing commands for toggling flap detection on host and service "
 "objects"
 msgstr ""
-"Erlaube die Verarbeitung von Kommandos zum Setzen von Eigenschaften von "
+"Erlaube die Verarbeitung von Kommandos zum Umschalten von Flap-Erkennung bei "
 "Host- und Serviceobjekten"
 
 #: /vagrant/modules/monitoring/configuration.php:68
-#, fuzzy
 msgid ""
 "Allow processing commands for toggling notifications on host and service "
 "objects"
 msgstr ""
-"Erlaube die Verarbeitung von Kommandos zum Setzen von Eigenschaften von "
-"Host- und Serviceobjekten"
+"Erlaube die Verarbeitung von Kommandos zum Umschalten von Benachrichtigungen "
+"über Host- und Serviceobjekte"
 
 #: /vagrant/modules/monitoring/configuration.php:64
-#, fuzzy
 msgid ""
 "Allow processing commands for toggling passive checks on host and service "
 "objects"
 msgstr ""
-"Erlaube die Verarbeitung von Kommandos zum Setzen von Eigenschaften von "
-"Host- und Serviceobjekten"
+"Erlaube die Verarbeitung von Kommandos zum Umschalten von passiven "
+"Überprüfungen von Host- und Serviceobjekten"
 
 #: /vagrant/modules/monitoring/configuration.php:48
 msgid "Allow processing host and service check results"
@@ -747,11 +742,11 @@ msgstr "Broadcast"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:55
 msgid "COMMENT"
-msgstr ""
+msgstr "KOMMENTAR"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:59
 msgid "COMMENT DELETED"
-msgstr ""
+msgstr "KOMMENTAR GELÖSCHT"
 
 #: /vagrant/modules/monitoring/library/Monitoring/Object/Service.php:196
 msgid "CRITICAL"
@@ -1152,15 +1147,15 @@ msgstr "DOWN"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:79
 msgid "DOWNTIME DELETED"
-msgstr ""
+msgstr "DOWNTIME GELÖSCHT"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:104
 msgid "DOWNTIME END"
-msgstr ""
+msgstr "DOWNTIME ENDE"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:99
 msgid "DOWNTIME START"
-msgstr ""
+msgstr "DOWNTIME BEGINN"
 
 #: /vagrant/modules/monitoring/library/Monitoring/BackendStep.php:105
 msgid "Database Name"
@@ -1386,7 +1381,7 @@ msgstr "Dauer"
 #: /vagrant/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:3
 msgctxt "Downtime status"
 msgid "ENDS"
-msgstr ""
+msgstr "ENDET"
 
 #: /vagrant/modules/monitoring/library/Monitoring/BackendStep.php:155
 #: /vagrant/modules/monitoring/library/Monitoring/BackendStep.php:168
@@ -1399,7 +1394,7 @@ msgstr "Fehler: %s"
 #: /vagrant/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:6
 msgctxt "Downtime status"
 msgid "EXPIRES"
-msgstr ""
+msgstr "LÄUFT AB"
 
 #: /vagrant/modules/monitoring/application/controllers/ConfigController.php:200
 #, php-format
@@ -1560,11 +1555,11 @@ msgstr "Verfällt %s"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:83
 msgid "FLAPPING"
-msgstr ""
+msgstr "FLAPPING"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:87
 msgid "FLAPPING STOPPED"
-msgstr ""
+msgstr "FLAPPING VORBEI"
 
 #: /vagrant/modules/monitoring/library/Monitoring/Command/Transport/CommandTransport.php:138
 msgid ""
@@ -1656,9 +1651,8 @@ msgstr "Globaler Service Event Handler"
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:31
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:130
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:229
-#, fuzzy
 msgid "Handled"
-msgstr "Unbehandelt"
+msgstr "Behandelt"
 
 #: /vagrant/modules/monitoring/application/controllers/TimelineController.php:55
 msgid "Hard state changes"
@@ -1666,7 +1660,7 @@ msgstr "Harte Status-Änderungen"
 
 #: /vagrant/modules/monitoring/application/controllers/AlertsummaryController.php:325
 msgid "Healing Chart"
-msgstr ""
+msgstr "Erholungs-Diagramm"
 
 #: /vagrant/modules/monitoring/configuration.php:208
 #: /vagrant/modules/monitoring/application/views/scripts/alertsummary/index.phtml:69
@@ -1733,9 +1727,8 @@ msgid "Host Problems:"
 msgstr "Host-Probleme:"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:164
-#, fuzzy
 msgid "Host Severity"
-msgstr "Schwere"
+msgstr "Schwere (Host)"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/hostgroups.phtml:26
 msgid "Host States"
@@ -1888,7 +1881,6 @@ msgstr ""
 "eingeplanten Zeitraum und auch dann, wenn aktive Checks nicht aktiv sind."
 
 #: /vagrant/modules/monitoring/application/controllers/ConfigController.php:165
-#, fuzzy
 msgid ""
 "If you still have any environments or views referring to this transport, you "
 "won't be able to send commands anymore after deletion."
@@ -2022,13 +2014,12 @@ msgstr "Letzter Service-Check"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:98
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:163
-#, fuzzy
 msgid "Last State Change"
-msgstr "Zustandsänderungen"
+msgstr "Letzte Statusänderung"
 
 #: /vagrant/modules/monitoring/application/views/scripts/health/info.phtml:28
 msgid "Last Status Update"
-msgstr "Letze Status-Aktualisierung"
+msgstr "Letzte Status-Aktualisierung"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:7
 msgid "Last check"
@@ -2208,20 +2199,21 @@ msgstr[0] "Zeige %u Service im Zustand CRITICAL"
 msgstr[1] "Zeige %u Services im Zustand CRITICAL"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:41
-#, fuzzy, php-format
+#, php-format
 msgid "List %u service that is currently in state CRITICAL (Handled)"
 msgid_plural "List %u services which are currently in state CRITICAL (Handled)"
-msgstr[0] "Zeige %u Service im Zustand CRITICAL (unbestätigt)"
-msgstr[1] "Zeige %u Services im Zustand CRITICAL (unbestätigt)"
+msgstr[0] "Zeige %u Service im Zustand CRITICAL (behandelt)"
+msgstr[1] "Zeige %u Services im Zustand CRITICAL (behandelt)"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:95
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "List %u service that is currently in state CRITICAL and not checked at all"
 msgid_plural ""
 "List %u services which are currently in state CRITICAL and not checked at all"
-msgstr[0] "Zeige %u Service, der gerade OK ist und nicht überwacht wird"
-msgstr[1] "Zeige %u Services, die gerade OK sind und nicht überwacht werden"
+msgstr[0] "Zeige %u Service, der gerade CRITICAL ist und nicht überwacht wird"
+msgstr[1] ""
+"Zeige %u Services, die gerade CRITICAL sind und nicht überwacht werden"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:68
 #, php-format
@@ -2272,11 +2264,11 @@ msgstr[0] "Zeige %u Service, der gerade UNKNOWN ist"
 msgstr[1] "Zeige %u Services, die gerade UNKNOWN sind"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:239
-#, fuzzy, php-format
+#, php-format
 msgid "List %u service that is currently in state UNKNOWN (Handled)"
 msgid_plural "List %u services which are currently in state UNKNOWN (Handled)"
-msgstr[0] "Zeige %u Service, der gerade UNKNOWN ist (bestätigt)"
-msgstr[1] "Zeige %u Services, die gerade UNKNOWN sind (bestätigt)"
+msgstr[0] "Zeige %u Service, der gerade UNKNOWN ist (behandelt)"
+msgstr[1] "Zeige %u Services, die gerade UNKNOWN sind (behandelt)"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:293
 #, php-format
@@ -2306,11 +2298,11 @@ msgstr[0] "Zeige %u Service, der gerade WARNING ist"
 msgstr[1] "Zeige %u Services, die gerade WARNING sind"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:140
-#, fuzzy, php-format
+#, php-format
 msgid "List %u service that is currently in state WARNING (Handled)"
 msgid_plural "List %u services which are currently in state WARNING (Handled)"
-msgstr[0] "Zeige %u Service, der gerade WARNING ist (bestätigt)"
-msgstr[1] "Zeige %u Services, die gerade WARNING sind (bestätigt)"
+msgstr[0] "Zeige %u Service, der gerade WARNING ist (behandelt)"
+msgstr[1] "Zeige %u Services, die gerade WARNING sind (behandelt)"
 
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/parts/servicestatesummarybyhoststate.phtml:194
 #, php-format
@@ -2357,7 +2349,7 @@ msgid "List all %d downtimes"
 msgstr "Zeige alle %d Downtimes"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/host/objects-header.phtml:32
-#, fuzzy, php-format
+#, php-format
 msgid "List all %d hosts"
 msgstr "Zeige alle %d Hosts"
 
@@ -2500,16 +2492,15 @@ msgstr "Verwende die SSH-Identitätsressource"
 
 #: /vagrant/modules/monitoring/application/views/helpers/Perfdata.php:39
 msgid "Max"
-msgstr ""
+msgstr "Maximum"
 
 #: /vagrant/modules/monitoring/application/controllers/AlertsummaryController.php:444
 msgid "Max (min)"
-msgstr ""
+msgstr "Maximum (Min.)"
 
 #: /vagrant/modules/monitoring/application/views/helpers/Perfdata.php:38
-#, fuzzy
 msgid "Min"
-msgstr "Minuten"
+msgstr "Minimum"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ScheduleServiceDowntimeCommandForm.php:147
 msgid "Minutes"
@@ -2534,9 +2525,8 @@ msgid "Monitoring Features"
 msgstr "Monitoring-Features"
 
 #: /vagrant/modules/monitoring/configuration.php:245
-#, fuzzy
 msgid "Monitoring Health"
-msgstr "Monitoring-Features"
+msgstr "Monitoring-Status"
 
 #: /vagrant/modules/monitoring/application/forms/Setup/IdoResourcePage.php:21
 msgctxt "setup.page.title"
@@ -2619,7 +2609,7 @@ msgstr "Monat"
 
 #: /vagrant/modules/monitoring/configuration.php:309
 msgid "Muted"
-msgstr ""
+msgstr "Nicht-alarmierend"
 
 #: /vagrant/modules/monitoring/application/views/scripts/health/info.phtml:21
 #: /vagrant/modules/monitoring/application/views/scripts/health/info.phtml:39
@@ -2631,7 +2621,7 @@ msgstr "Nicht verfügbar"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:45
 msgid "NOTIFICATION"
-msgstr ""
+msgstr "BENACHRICHTIGUNG"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:296
 #: /vagrant/modules/monitoring/application/views/scripts/list/contacts.phtml:17
@@ -2687,9 +2677,8 @@ msgid ""
 msgstr "Zu diesem Filter wurden keine Downtimes gefunden."
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:31
-#, fuzzy
 msgid "No historical events found matching the filter."
-msgstr "Zu diesem Filter wurden keine historischen Ereignisse gefunden"
+msgstr "Zu diesem Filter wurden keine historischen Ereignisse gefunden."
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/hostgroups.phtml:18
 msgid "No host groups found matching the filter."
@@ -2708,9 +2697,8 @@ msgid "No notification has been sent for this issue."
 msgstr "Für dieses Problem wurde keine Benachrichtigung gesendet."
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/notifications.phtml:18
-#, fuzzy
 msgid "No notifications found matching the filter."
-msgstr "Zu diesem Filter wurde keine Benachrichtigung gefunden"
+msgstr "Zu diesem Filter wurde keine Benachrichtigung gefunden."
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/contact.phtml:69
 msgid "No notifications have been sent for this contact"
@@ -2721,15 +2709,13 @@ msgid "No service groups found matching the filter."
 msgstr "Zu diesem Filter wurden keine Servicegruppen gefundenn"
 
 #: /vagrant/modules/monitoring/application/views/scripts/services/show.phtml:20
-#, fuzzy
 msgid "No services found matching the filter"
-msgstr "Zu diesem Filter wurden keine Servicegruppen gefundenn"
+msgstr "Zu diesem Filter wurden keine Services gefunden"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/servicegrid.phtml:14
 #: /vagrant/modules/monitoring/application/views/scripts/list/services.phtml:22
-#, fuzzy
 msgid "No services found matching the filter."
-msgstr "Zu diesem Filter wurden keine Servicegruppen gefundenn"
+msgstr "Zu diesem Filter wurden keine Services gefunden"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/eventgrid.phtml:81
 msgid "No state changes in the selected time period."
@@ -2757,9 +2743,8 @@ msgid "Not reachable"
 msgstr "Nicht erreichbar"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/notifications.phtml:68
-#, fuzzy
 msgid "Not sent out to any contact"
-msgstr "Diese Benachrichtigung wurde an keinen Kontakt gesendet."
+msgstr "An keinen Kontakt gesendet"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/notes.phtml:43
 msgid "Notes"
@@ -2806,14 +2791,12 @@ msgid "Notifications and average reaction time per hour."
 msgstr "Benachrichtigungen und durchschnittliche Reaktionszeiten pro Stunden."
 
 #: /vagrant/modules/monitoring/application/controllers/AlertsummaryController.php:464
-#, fuzzy
 msgid "Notifications and defects per hour"
-msgstr "Benachrichtigungen per Stunde"
+msgstr "Benachrichtigungen und Fehler pro Stunde"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/contact.phtml:58
-#, fuzzy
 msgid "Notifications sent to this contact"
-msgstr "Für dieses Problem wurde keine Benachrichtigung gesendet"
+msgstr "An diesen Kontakt gesendete Benachrichtigungen"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Instance/ToggleInstanceFeaturesCommandForm.php:74
 #, php-format
@@ -2998,14 +2981,13 @@ msgid "Port"
 msgstr "Port"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/components/selectioninfo.phtml:3
-#, fuzzy
 msgctxt "Multi-selection help"
 msgid ""
 "Press and hold the Ctrl key while clicking on rows to select multiple rows "
 "or press and hold the Shift key to select a range of rows"
 msgstr ""
-"Drücken und halten Sie STRG, um mehrere einzelne Spalten per Klick "
-"auszuwählen. Hochstelltaste und Klick zusammenhängende Bereiche von Spalten."
+"Drücken und halten Sie STRG während Sie auf Spalten klicken, um mehrere "
+"auszuwählen. Mit der Umschalttaste können Sie Bereiche von Spalten auswählen"
 
 #: /vagrant/modules/monitoring/application/views/scripts/hosts/show.phtml:20
 msgid "Problem Handling"
@@ -3021,7 +3003,6 @@ msgid "Problems"
 msgstr "Probleme"
 
 #: /vagrant/modules/monitoring/application/views/scripts/health/info.phtml:14
-#, fuzzy
 msgid "Process Info"
 msgstr "Prozessinformation"
 
@@ -3069,9 +3050,8 @@ msgid "Remote Command File"
 msgstr "Remote Kommandodatei"
 
 #: /vagrant/modules/monitoring/library/Monitoring/TransportStep.php:59
-#, fuzzy
 msgid "Remote Host"
-msgstr "Remote SSH Port"
+msgstr "Entfernter Host"
 
 #: /vagrant/modules/monitoring/library/Monitoring/TransportStep.php:63
 msgid "Remote SSH Port"
@@ -3210,7 +3190,7 @@ msgstr "Laufzeitvariablen"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/event-history.phtml:73
 msgid "SCHEDULED DOWNTIME"
-msgstr ""
+msgstr "GEPLANTE DOWNTIME"
 
 #: /vagrant/modules/monitoring/application/forms/Config/Transport/RemoteTransportForm.php:108
 msgid "SSH Identity"
@@ -3223,7 +3203,7 @@ msgstr "SSH-Port auf der entfernten Icingainstanz"
 #: /vagrant/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:6
 msgctxt "Downtime status"
 msgid "STARTS"
-msgstr ""
+msgstr "BEGINNT"
 
 #: /vagrant/modules/monitoring/application/forms/Config/BackendConfigForm.php:42
 #: /vagrant/modules/monitoring/application/forms/Config/SecurityConfigForm.php:20
@@ -3410,9 +3390,8 @@ msgstr "Benachrichtigung senden"
 
 #: /vagrant/modules/monitoring/application/views/scripts/hosts/show.phtml:144
 #: /vagrant/modules/monitoring/application/views/scripts/services/show.phtml:146
-#, fuzzy
 msgid "Send notifications"
-msgstr "Benachrichtigung senden"
+msgstr "Benachrichtigungen senden"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/SendCustomNotificationCommandForm.php:95
 msgid "Sending custom notification.."
@@ -3437,52 +3416,44 @@ msgstr "Gesendet an %s"
 #: /vagrant/modules/monitoring/application/views/scripts/partials/object/service-header.phtml:48
 #: /vagrant/modules/monitoring/library/Monitoring/DataView/DataView.php:278
 #: /vagrant/modules/monitoring/library/Monitoring/Web/Controller/MonitoredObjectController.php:199
-#, fuzzy
 msgid "Service"
 msgstr "Service"
 
 #: /vagrant/modules/monitoring/configuration.php:112
-#, fuzzy
 msgid "Service Action"
-msgstr "Service nicht gefunden"
+msgstr "Service-Aktion"
 
 #: /vagrant/modules/monitoring/application/views/scripts/health/stats.phtml:87
 #: /vagrant/modules/monitoring/application/views/scripts/health/stats.phtml:127
 #: /vagrant/modules/monitoring/application/views/scripts/health/stats.phtml:152
-#, fuzzy
 msgid "Service Checks"
-msgstr "Letzter Service-Check"
+msgstr "Service-Überprüfungen"
 
 #: /vagrant/modules/monitoring/configuration.php:152
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:536
-#, fuzzy
 msgid "Service Grid"
-msgstr "Zeige das Servicesraster"
+msgstr "Servicesraster"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/servicegroups.phtml:23
-#, fuzzy
 msgid "Service Group"
-msgstr "Servicegruppenübersicht"
+msgstr "Servicegruppe"
 
 #: /vagrant/modules/monitoring/application/controllers/ChartController.php:232
 msgid "Service Group Chart"
 msgstr "Servicegruppenübersicht"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:460
-#, fuzzy
 msgid "Service Group Name"
-msgstr "Servicegruppenübersicht"
+msgstr "Servicegruppenname"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:434
-#, fuzzy
 msgid "Service Groups"
-msgstr "Servicegruppenübersicht"
+msgstr "Servicegruppen"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:161
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:561
-#, fuzzy
 msgid "Service Name"
-msgstr "Service-Zustand"
+msgstr "Service-Name"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:300
 msgid "Service Notification Timeperiod"
@@ -3491,25 +3462,21 @@ msgstr "Benachrichtigungszeitraum des Services"
 #: /vagrant/modules/monitoring/configuration.php:140
 #: /vagrant/modules/monitoring/configuration.php:256
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/ok_hosts.phtml:78
-#, fuzzy
 msgid "Service Problems"
-msgstr "Serviceprobleme bestätigen"
+msgstr "Serviceprobleme"
 
 #: /vagrant/modules/monitoring/application/views/scripts/health/stats.phtml:20
-#, fuzzy
 msgid "Service Problems:"
-msgstr "Serviceprobleme bestätigen"
+msgstr "Serviceprobleme:"
 
 #: /vagrant/modules/monitoring/application/controllers/ListController.php:159
-#, fuzzy
 msgid "Service Severity"
-msgstr "Service-Zustand"
+msgstr "Schwere (Service)"
 
 #: /vagrant/modules/monitoring/application/views/scripts/list/hostgroups.phtml:28
 #: /vagrant/modules/monitoring/application/views/scripts/list/servicegroups.phtml:24
-#, fuzzy
 msgid "Service States"
-msgstr "Service-Zustand"
+msgstr "Service-Zustände"
 
 #: /vagrant/modules/monitoring/application/controllers/ServiceController.php:36
 msgid "Service not found"
@@ -3518,9 +3485,8 @@ msgstr "Service nicht gefunden"
 #: /vagrant/modules/monitoring/configuration.php:106
 #: /vagrant/modules/monitoring/configuration.php:180
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/servicegroups.phtml:17
-#, fuzzy
 msgid "Servicegroups"
-msgstr "Servicegruppen auflisten"
+msgstr "Servicegruppen"
 
 #: /vagrant/modules/monitoring/configuration.php:104
 #: /vagrant/modules/monitoring/configuration.php:176
@@ -3531,9 +3497,8 @@ msgstr "Servicegruppen auflisten"
 #: /vagrant/modules/monitoring/application/views/scripts/show/contact.phtml:44
 #: /vagrant/modules/monitoring/application/views/scripts/tactical/components/hostservicechecks.phtml:10
 #: /vagrant/modules/monitoring/library/Monitoring/Web/Controller/MonitoredObjectController.php:212
-#, fuzzy
 msgid "Services"
-msgstr "Services UP"
+msgstr "Services"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ScheduleServiceCheckCommandForm.php:53
 msgid "Set the date and time when the check should be scheduled."
@@ -3718,7 +3683,7 @@ msgstr "Socken"
 #: /vagrant/modules/monitoring/application/views/scripts/partials/object/service-header.phtml:42
 msgctxt "Soft state"
 msgid "Soft"
-msgstr ""
+msgstr "Weich"
 
 #: /vagrant/modules/monitoring/library/Monitoring/MonitoringWizard.php:111
 msgctxt "setup.welcome.btn.next"
@@ -3762,24 +3727,20 @@ msgstr[0] "Passives Check-Ergebnis übermitteln"
 msgstr[1] "Passives Check-Ergebnisse übermitteln"
 
 #: /vagrant/modules/monitoring/application/controllers/HostController.php:166
-#, fuzzy
 msgid "Submit Passive Host Check Result"
-msgstr "Passives Check-Ergebnis übermitteln"
+msgstr "Passives Host-Check-Ergebnis übermitteln"
 
 #: /vagrant/modules/monitoring/application/controllers/HostsController.php:210
-#, fuzzy
 msgid "Submit Passive Host Check Results"
-msgstr "Passives Check-Ergebnis übermitteln"
+msgstr "Passives Host-Check-Ergebnisse übermitteln"
 
 #: /vagrant/modules/monitoring/application/controllers/ServiceController.php:124
-#, fuzzy
 msgid "Submit Passive Service Check Result"
-msgstr "Passives Check-Ergebnis übermitteln"
+msgstr "Passives Service-Check-Ergebnis übermitteln"
 
 #: /vagrant/modules/monitoring/application/controllers/ServicesController.php:213
-#, fuzzy
 msgid "Submit Passive Service Check Results"
-msgstr "Passives Check-Ergebnis übermitteln"
+msgstr "Passives Service-Check-Ergebnisse übermitteln"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/command.phtml:17
 #, php-format
@@ -3801,12 +3762,16 @@ msgstr "Taktische Übersicht"
 msgid ""
 "The Zend database adapter for MySQL is required to access a MySQL database."
 msgstr ""
+"Der Zend Datenbank-Adapter für MySQL wird benötigt, um auf MySQL-Datenbanken "
+"zuzugreifen."
 
 #: /vagrant/modules/monitoring/library/Monitoring/MonitoringWizard.php:212
 msgid ""
 "The Zend database adapter for PostgreSQL is required to access a PostgreSQL "
 "database."
 msgstr ""
+"Der Zend Datenbank-Adapter für PostgreSQL wird benötigt, um auf PostgreSQL-"
+"Datenbanken zuzugreifen."
 
 #: /vagrant/modules/monitoring/application/forms/Setup/IdoResourcePage.php:102
 msgid "The configuration has been successfully validated."
@@ -3818,7 +3783,7 @@ msgstr "Die Datenquelle die für Monitoring-Daten benutzt wird"
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:143
 msgid "The date/time the scheduled downtime actually ended"
-msgstr ""
+msgstr "Der tatsächliche Endzeitpunkt der geplanten Downtime"
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:123
 msgid ""
@@ -3826,6 +3791,9 @@ msgid ""
 "flexible (non-fixed) downtime, this refers to the last possible time that "
 "the downtime can start"
 msgstr ""
+"Der angenommene Endzeitpunkt der geplanten Downtime. Im Falle einer "
+"flexiblen (nicht-fixen) Downtime ist dies der spätestmögliche Zeitpunkt, zu "
+"dem sie beginnen kann"
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:116
 msgid ""
@@ -3833,6 +3801,9 @@ msgid ""
 "flexible (non-fixed) downtime, this refers to the earliest possible time "
 "that the downtime can start"
 msgstr ""
+"Der angenommene Startzeitpunkt der geplanten Downtime. Im Falle einer "
+"flexiblen (nicht-fixen) Downtime ist dies der frühestmögliche Zeitpunkt, zu "
+"dem sie beginnen kann"
 
 #: /vagrant/modules/monitoring/library/Monitoring/DataView/DataView.php:448
 #, php-format
@@ -3850,13 +3821,15 @@ msgstr "Der Name des Backend"
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/notifications.phtml:57
 #, php-format
 msgid "The last one was sent %s."
-msgstr ""
+msgstr "Die letzte wurde %s gesendet."
 
 #: /vagrant/modules/monitoring/application/forms/Config/TransportConfigForm.php:205
 msgid ""
 "The name of the Icinga instance this transport should exclusively transfer "
 "commands to."
 msgstr ""
+"Der Name der einzigen Icinga-Instanz, an die diese Befehlsschnittstelle "
+"Kommandos übermitteln soll."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:38
 msgid "The name of the person who scheduled this downtime"
@@ -3931,16 +3904,24 @@ msgid ""
 "is acknowledged, future notifications about problems are temporarily "
 "disabled until the host or service recovers."
 msgstr ""
+"Dieses Kommando wird verwendet, um Host- oder Service-Probleme zu "
+"bestätigen. Sobald ein Problem bestätigt wird, werden zukünftige "
+"Benachrichtigungen über Probleme vorübergehend deaktiviert, bis der "
+"entsprechende Host oder Service sich erholt"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/AddCommentCommandForm.php:19
 msgid "This command is used to add host or service comments."
 msgstr ""
+"Dieses Kommando wird verwendet, um Host- oder Service-Kommentare "
+"hinzuzufügen."
 
 #: /vagrant/modules/monitoring/application/forms/Command/Instance/DisableNotificationsExpireCommandForm.php:26
 msgid ""
 "This command is used to disable host and service notifications for a "
 "specific time."
 msgstr ""
+"Dieses Kommando wird verwendet, um Host- oder Service-Benachrichtigungen für "
+"eine bestimmte Zeit zu deaktivieren."
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ScheduleServiceDowntimeCommandForm.php:33
 msgid ""
@@ -3950,32 +3931,43 @@ msgid ""
 "notifications for the hosts and services as it normally would. Scheduled "
 "downtimes are preserved across program shutdowns and restarts."
 msgstr ""
+"Dieses Kommando wird verwendet, um Host- oder Service-Downtimes einzuplanen. "
+"Während einer solchen Downtime versendet Icinga keine Benachrichtigungen "
+"über die entsprechenden Hosts und Services. Sobald die Downtime verfällt, "
+"versendet Icinga die Benachrichtigungen wieder wie vorher. Geplante "
+"Downtimes bleiben über Herunterfahren und Neustart von Icinga hinweg "
+"erhalten."
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ScheduleServiceCheckCommandForm.php:23
 msgid ""
 "This command is used to schedule the next check of hosts or services. Icinga "
 "will re-queue the hosts or services to be checked at the time you specify."
 msgstr ""
+"Dieses Kommando wird verwendet, um die nächste Überprüfung von Hosts oder "
+"Services einzuplanen. Aktuell anstehende Überprüfungen werden durch die neu "
+"spezifizierte ersetzt."
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/SendCustomNotificationCommandForm.php:20
-#, fuzzy
 msgid ""
 "This command is used to send custom notifications about hosts or services."
 msgstr ""
-"Erlaube das Senden von angepassten Benachrichtigungen für Hosts und Services"
+"Dieses Kommando wird verwendet, um angepasste Benachrichtigungen über Hosts "
+"und Services zu versenden."
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ProcessCheckResultCommandForm.php:20
 msgid "This command is used to submit passive host or service check results."
 msgstr ""
+"Dieses Kommando wird verwendet, um passive Host- oder Service-"
+"Überprüfungsergebnisse zu übermitteln."
 
 #: /vagrant/modules/monitoring/application/views/scripts/comment/show.phtml:63
 msgid "This comment does not expire."
 msgstr "Dieser Kommentar verfällt nicht."
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/comment/comment-detail.phtml:41
-#, fuzzy, php-format
+#, php-format
 msgid "This comment expires on %s at %s"
-msgstr "Dieser Kommentar verfällt am %s um %s."
+msgstr "Dieser Kommentar verfällt am %s um %s"
 
 #: /vagrant/modules/monitoring/application/views/scripts/comment/show.phtml:60
 #, php-format
@@ -3983,14 +3975,12 @@ msgid "This comment expires on %s at %s."
 msgstr "Dieser Kommentar verfällt am %s um %s."
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:47
-#, fuzzy
 msgid "This downtime is flexible"
-msgstr "Zeige Downtimes"
+msgstr "Diese Downtime ist flexibel"
 
 #: /vagrant/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:51
-#, fuzzy
 msgid "This downtime is in effect"
-msgstr "Zeige Downtimes"
+msgstr "Diese Downtime ist wirksam"
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:106
 #, php-format
@@ -3998,12 +3988,13 @@ msgid ""
 "This fixed host downtime has been scheduled to start on %s at %s and to end "
 "on %s at %s."
 msgstr ""
+"Diese fixe Host-Downtime soll am %s um %s beginnen und am %s um %s enden."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:96
 #, php-format
 msgid ""
 "This fixed host downtime was started on %s at %s and expires on %s at %s."
-msgstr ""
+msgstr "Diese fixe Host-Downtime begann am %s um %s und verfällt am %s um %s."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:105
 #, php-format
@@ -4011,12 +4002,14 @@ msgid ""
 "This fixed service downtime has been scheduled to start on %s at %s and to "
 "end on %s at %s."
 msgstr ""
+"Diese fixe Service-Downtime soll am %s um %s beginnen und am %s um %s enden."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:95
 #, php-format
 msgid ""
 "This fixed service downtime was started on %s at %s and expires on %s at %s."
 msgstr ""
+"Diese fixe Service-Downtime begann am %s um %s und verfällt am %s um %s."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:85
 #, php-format
@@ -4024,6 +4017,7 @@ msgid ""
 "This flexible host downtime has been scheduled to start between %s - %s and "
 "to last for %s."
 msgstr ""
+"Diese flexible Host-Downtime soll zwischen %s und %s beginnen und %s dauern."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:74
 #, php-format
@@ -4031,6 +4025,7 @@ msgid ""
 "This flexible host downtime was started on %s at %s and lasts for %s until "
 "%s at %s."
 msgstr ""
+"Diese flexible Host-Downtime begann am %s um %s und dauert %s bis %s %s."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:84
 #, php-format
@@ -4038,6 +4033,8 @@ msgid ""
 "This flexible service downtime has been scheduled to start between %s - %s "
 "and to last for %s."
 msgstr ""
+"Diese flexible Service-Downtime soll zwischen %s und %s beginnen und %s "
+"dauern."
 
 #: /vagrant/modules/monitoring/application/views/scripts/downtime/show.phtml:73
 #, php-format
@@ -4045,6 +4042,7 @@ msgid ""
 "This flexible service downtime was started on %s at %s and lasts for %s "
 "until %s at %s."
 msgstr ""
+"Diese flexible Service-Downtime begann am %s um %s und dauert %s bis %s %s."
 
 #: /vagrant/modules/monitoring/application/forms/Setup/WelcomePage.php:33
 msgid "This is the core module for Icinga Web 2."
@@ -4241,7 +4239,7 @@ msgstr "Überprüfung läuft"
 
 #: /vagrant/modules/monitoring/application/forms/Setup/IdoResourcePage.php:131
 msgid "Validation Log"
-msgstr ""
+msgstr "Überprüfungsprotokoll"
 
 #: /vagrant/modules/monitoring/application/views/helpers/Perfdata.php:37
 msgid "Value"
@@ -4284,9 +4282,8 @@ msgid "Zend database adapter for PostgreSQL"
 msgstr "Zend Datenbankadapter für PostgreSQL"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/acknowledgement.phtml:22
-#, fuzzy
 msgid "acknowledged"
-msgstr "Bestätigt"
+msgstr "bestätigt"
 
 #: /vagrant/modules/monitoring/application/views/scripts/timeline/index.phtml:60
 #, php-format
@@ -4308,14 +4305,12 @@ msgid "commented"
 msgstr "kommentiert"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/downtime.phtml:79
-#, fuzzy
 msgid "created"
-msgstr "Angelegt"
+msgstr "erstellt"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ToggleObjectFeaturesCommandForm.php:84
-#, fuzzy
 msgid "disable"
-msgstr "%d Deaktiviert"
+msgstr "deaktivieren"
 
 #: /vagrant/modules/monitoring/application/controllers/AlertsummaryController.php:194
 msgid "down"
@@ -4323,7 +4318,7 @@ msgstr "Down"
 
 #: /vagrant/modules/monitoring/application/forms/Command/Object/ToggleObjectFeaturesCommandForm.php:85
 msgid "enable"
-msgstr ""
+msgstr "aktivieren"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/downtime.phtml:60
 #, php-format
@@ -4404,10 +4399,10 @@ msgid "scheduled %s"
 msgstr "%s wurde geplant"
 
 #: /vagrant/modules/monitoring/application/views/scripts/show/components/downtime.phtml:70
-#, fuzzy, php-format
+#, php-format
 msgctxt "Last format parameter represents the time scheduled"
 msgid "scheduled flexible %s"
-msgstr "%s wurde geplant"
+msgstr "flexibel geplant %s"
 
 #: /vagrant/modules/monitoring/library/Monitoring/Object/MonitoredObject.php:708
 msgid "service"
