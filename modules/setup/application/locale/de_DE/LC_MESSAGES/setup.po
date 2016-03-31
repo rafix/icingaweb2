@@ -1,40 +1,42 @@
 # Icinga Web 2 - Head for multiple monitoring backends.
-# Copyright (C) 2015 Icinga Development Team
+# Copyright (C) 2016 Icinga Development Team
 # This file is distributed under the same license as Setup Module.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Setup Module (2.0.0)\n"
+"Project-Id-Version: Setup Module (2.2.0)\n"
 "Report-Msgid-Bugs-To: dev@icinga.org\n"
-"POT-Creation-Date: 2015-10-02 10:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-31 10:57+0000\n"
+"PO-Revision-Date: 2016-03-31 13:03+0200\n"
 "Language: de_DE\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: /vagrant/modules/setup/library/Setup/Requirement/OSRequirement.php:15
 #, php-format
 msgid "%s Platform"
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:98
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:104
 msgid "<your-webserver-user>"
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:78
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:84
 msgid "A system group called \"icingaweb2\" exists"
-msgstr ""
+msgstr "Eine Systemgruppe namens \"icingaweb2\" existiert"
 
 #: /vagrant/modules/setup/application/forms/DatabaseCreationPage.php:102
 msgid ""
 "A user which is able to create databases and/or touch the database schema"
 msgstr ""
+"Ein Benutzer, der berechtigt ist, Datenbanken zu erstellen und/oder das "
+"Datenbankschema zu ändern"
 
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:198
 #, php-format
@@ -82,14 +84,14 @@ msgid ""
 "\"%s\"."
 msgstr ""
 
+#: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:73
+#: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:83
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:83
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:105
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:186
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:191
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:200
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:206
-#: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:73
-#: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:83
 msgid "Administrators"
 msgstr ""
 
@@ -126,12 +128,12 @@ msgstr ""
 
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:120
 msgid "Authentication"
-msgstr ""
+msgstr "Authentifizierung"
 
 #: /vagrant/modules/setup/application/forms/AuthenticationPage.php:21
 msgctxt "setup.page.title"
 msgid "Authentication"
-msgstr ""
+msgstr "Authentifizierung"
 
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:121
 msgid "Authentication Backend"
@@ -159,10 +161,10 @@ msgstr ""
 
 #: /vagrant/modules/setup/application/views/scripts/index/parts/finish.phtml:20
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
-#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:141
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:138
+#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:141
 msgid "Backend Name"
 msgstr ""
 
@@ -265,25 +267,26 @@ msgstr ""
 #: /vagrant/modules/setup/application/views/scripts/index/index.phtml:70
 msgctxt "setup.progress"
 msgid "Configuration"
-msgstr ""
+msgstr "Einstellungen"
 
 #: /vagrant/modules/setup/application/views/scripts/index/parts/finish.phtml:3
 msgid "Congratulations! Icinga Web 2 has been successfully set up."
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:81
+#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:80
 #, php-format
-msgid "Could not find any LDAP servers on the domain \"%s\"."
+msgid ""
+"Could not find any LDAP servers on the domain \"%s\". An error occurred: %s"
 msgstr ""
 
 #: /vagrant/modules/setup/application/clicommands/ConfigCommand.php:155
 msgid "Could not write to file"
-msgstr ""
+msgstr "Konnte Datei nicht beschreiben"
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:72
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:123
 msgid "Creating database schema..."
-msgstr ""
+msgstr "Erstelle Datenbankschema..."
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:79
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:130
@@ -295,21 +298,21 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:112
 #, php-format
 msgid "Creating new database \"%s\"..."
-msgstr ""
+msgstr "Erstelle neue Datenbank \"%s\"..."
 
-#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:149
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:147
+#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:149
 msgid "Custom Filter"
 msgstr ""
 
-#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:61
 #: /vagrant/modules/setup/application/forms/AuthenticationPage.php:46
+#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:61
 msgid "Database"
-msgstr ""
+msgstr "Datenbank"
 
 #: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:82
 msgid "Database Name"
-msgstr ""
+msgstr "Datenbankname"
 
 #: /vagrant/modules/setup/application/forms/DbResourcePage.php:21
 msgctxt "setup.page.title"
@@ -318,16 +321,16 @@ msgstr ""
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:245
 msgid "Database Setup"
-msgstr ""
+msgstr "Einrichtung der Datenbank"
 
 #: /vagrant/modules/setup/application/forms/DatabaseCreationPage.php:41
 msgctxt "setup.page.title"
 msgid "Database Setup"
-msgstr ""
+msgstr "Einrichtung der Datenbank"
 
 #: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:70
 msgid "Database Type"
-msgstr ""
+msgstr "Datenbanktyp"
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:70
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:121
@@ -341,7 +344,7 @@ msgstr ""
 
 #: /vagrant/modules/setup/library/Setup/WebWizard.php:559
 msgid "Default Timezone"
-msgstr ""
+msgstr "Standard-Zeitzone"
 
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:157
 msgid ""
@@ -350,29 +353,23 @@ msgid ""
 "mechanisms."
 msgstr ""
 
-#: /vagrant/modules/setup/library/Setup/Utils/MakeDirStep.php:53
-#, php-format
-msgid "Directory \"%s\" in \"%s\" has been successfully created."
-msgstr ""
-
-#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:50
+#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:51
 msgid "Do not discover LDAP servers and enter all settings manually."
 msgstr ""
 
-#: /vagrant/modules/setup/library/Setup/Utils/EnableModuleStep.php:61
-#: /vagrant/modules/setup/library/Setup/Utils/MakeDirStep.php:61
-#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:180
-#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:193
-#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:208
-#: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:120
-#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:147
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:257
+#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:147
+#: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:120
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:198
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:211
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:233
+#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:180
+#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:193
+#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:208
+#: /vagrant/modules/setup/library/Setup/Utils/EnableModuleStep.php:61
 #, php-format
 msgid "ERROR: %s"
-msgstr ""
+msgstr "FEHLER: %s"
 
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:222
 msgid "Enter the password to assign to the newly created account."
@@ -396,14 +393,14 @@ msgstr ""
 
 #: /vagrant/modules/setup/application/forms/AuthenticationPage.php:51
 msgid "External"
-msgstr ""
+msgstr "Extern"
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:256
 msgid "Failed to fully setup the database. An error occured:"
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:199
 #: /vagrant/modules/setup/application/forms/LdapResourcePage.php:119
+#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:199
 #: /vagrant/modules/setup/application/forms/DbResourcePage.php:117
 #, php-format
 msgid "Failed to successfully validate the configuration: %s"
@@ -412,16 +409,16 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:78
 msgctxt "app.config.logging.type"
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: /vagrant/modules/setup/application/clicommands/ConfigCommand.php:150
 #, php-format
 msgid "File %s already exists. Please delete it first."
-msgstr ""
+msgstr "Die Datei %s existiert bereits. Bitte löschen Sie sie zuerst."
 
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:95
 msgid "Filepath"
-msgstr ""
+msgstr "Dateipfad"
 
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:158
 msgid "Filter Pattern"
@@ -430,9 +427,9 @@ msgstr ""
 #: /vagrant/modules/setup/application/views/scripts/index/index.phtml:127
 msgctxt "setup.progress"
 msgid "Finish"
-msgstr ""
+msgstr "Fertigstellen"
 
-#: /vagrant/modules/setup/application/forms/WelcomePage.php:37
+#: /vagrant/modules/setup/application/forms/WelcomePage.php:38
 msgid ""
 "For security reasons we need to ensure that you are permitted to run this "
 "wizard. Please provide a token by following the instructions below."
@@ -441,16 +438,22 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:51
 msgctxt "app.config"
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:117
 #, php-format
 msgid "General configuration could not be written to: %s. An error occured:"
 msgstr ""
+"Allgemeine Einstellungen konnten nicht nach %s geschrieben werden. Ein "
+"Fehler ist aufgetreten:"
 
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:111
 #, php-format
 msgid "General configuration has been successfully written to: %s"
+msgstr "Allgemeine Einstellungen wurden erfolgreich nach %s geschrieben"
+
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:75
+msgid "Generating a New Setup Token"
 msgstr ""
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:91
@@ -465,11 +468,11 @@ msgstr ""
 
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:170
 msgid "Group Name"
-msgstr ""
+msgstr "Gruppenname"
 
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:153
 msgid "Group Name Attribute"
-msgstr ""
+msgstr "Gruppennamen-Attribut"
 
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:145
 msgid "Group Object Class"
@@ -478,17 +481,18 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:74
 #: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:107
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:102
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:108
 msgid "Icinga Web 2 documentation"
-msgstr ""
+msgstr "Icinga Web 2 Dokumentation"
 
 #: /vagrant/modules/setup/library/Setup/WebWizard.php:571
+#, fuzzy
 msgid ""
 "Icinga Web 2 is developed for and tested on Linux. While we cannot guarantee "
 "they will, other platforms may also perform as well."
-msgstr ""
+msgstr "Icinga Web 2 wurde für Linux entwickelt und darauf getestet."
 
 #: /vagrant/modules/setup/library/Setup/WebWizard.php:607
 msgid ""
@@ -501,31 +505,42 @@ msgid ""
 "If you'd like to authenticate users using LDAP the corresponding PHP module "
 "is required."
 msgstr ""
+"Wenn Sie Benutzer via LDAP authentifizieren möchten, benötigen Sie das "
+"entsprechende PHP-Modul."
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:91
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:97
 msgid "If you've got the IcingaCLI installed you can do the following:"
 msgstr ""
+"Wenn bei Ihnen die IcingaCLI installiert ist, können Sie folgendes tun:"
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:76
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:82
 msgid ""
 "In any case, make sure that all of the following applies to your environment:"
 msgstr ""
+"Vergewissern Sie sich in jedem Fall, dass auf Ihre Umgebung folgendes "
+"zutrifft:"
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:96
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:102
+#, fuzzy
 msgid "In case the IcingaCLI is missing you can create the token manually:"
 msgstr ""
+"Wenn bei Ihnen die IcingaCLI fehlt, können Sie den Token manuell erstellen:"
 
 #: /vagrant/modules/setup/library/Setup/WebWizard.php:636
 msgid ""
 "In case you want graphs being exported to PDF as well, you'll need the "
 "ImageMagick extension for PHP."
 msgstr ""
+"Wenn Sie Graphen als PDF exportieren wollen, brauchen Sie die ImageMagick-"
+"Erweiterung für PHP."
 
 #: /vagrant/modules/setup/library/Setup/WebWizard.php:627
 msgid ""
 "In case you want views being exported to PDF, you'll need the GD extension "
 "for PHP."
 msgstr ""
+"Wenn Sie Ansichten als PDF exportieren wollen, brauchen Sie die GD-"
+"Erweiterung für PHP."
 
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:84
 msgctxt "app.config.logging.level"
@@ -541,7 +556,7 @@ msgstr ""
 msgid ""
 "It is required that a default timezone has been set using date.timezone in "
 "%s."
-msgstr ""
+msgstr "Eine Standard-Zeitzone muss via date.timezone in %s gesetzt sein."
 
 #: /vagrant/modules/setup/application/forms/DatabaseCreationPage.php:43
 msgid ""
@@ -551,8 +566,14 @@ msgid ""
 "access credentials do not have the sufficient permissions to access the "
 "database. Please provide appropriate access credentials to solve this."
 msgstr ""
+"Es scheint, als ob entweder die von Ihnen definierte Datenbank nicht "
+"existiert und mit den gegebenen Zugangsdaten nicht erstellt werden kann oder "
+"die Datenbank nicht das erforderliche Schema, um von Icinga Web 2 betrieben "
+"zu werden, hat oder die gegebenen Zugangsdaten nicht dazu berechtigen, auf "
+"die Datenbank zuzugreifen. Bitte geben Sie geeignete Zugangsdaten ein, um "
+"das Problem zu lösen."
 
-#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:30
+#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:31
 msgctxt "setup.page.title"
 msgid "LDAP Discovery"
 msgstr ""
@@ -570,11 +591,11 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:52
 msgctxt "app.config"
 msgid "Logging"
-msgstr ""
+msgstr "Protokollierung"
 
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:70
 msgid "Logging will be disabled."
-msgstr ""
+msgstr "Protokollierung wird deaktiviert sein."
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:77
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:128
@@ -588,12 +609,13 @@ msgstr ""
 
 #: /vagrant/modules/setup/application/views/scripts/form/setup-requirements.phtml:13
 msgid "Module"
-msgstr ""
+msgstr "Modul"
 
 #: /vagrant/modules/setup/library/Setup/Utils/EnableModuleStep.php:55
 #, php-format
 msgid "Module \"%s\" could not be enabled. An error occured:"
 msgstr ""
+"Modul \"%s\" konnte nicht aktiviert werden. Ein Fehler ist aufgetreten:"
 
 #: /vagrant/modules/setup/library/Setup/Utils/EnableModuleStep.php:54
 #, php-format
@@ -603,26 +625,28 @@ msgstr ""
 #: /vagrant/modules/setup/application/views/scripts/form/setup-modules.phtml:14
 msgctxt "setup.page.title"
 msgid "Modules"
-msgstr ""
+msgstr "Module"
 
 #: /vagrant/modules/setup/application/views/scripts/index/index.phtml:44
 msgctxt "setup.progress"
 msgid "Modules"
-msgstr ""
+msgstr "Module"
 
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:113
 msgctxt "setup.admin"
 msgid "New User"
-msgstr ""
+msgstr "Neuer Benutzer"
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:239
 msgid ""
 "No connection to database host possible. You'll need to setup the database "
 "with the schema required by Icinga Web 2 manually."
 msgstr ""
+"Es kann keine Verbindung zum Datenbankserver aufgebaut werden. Sie müssen "
+"die Datenbank"
 
-#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:150
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:148
+#: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:150
 msgctxt "auth.ldap.filter"
 msgid "None"
 msgstr ""
@@ -678,17 +702,17 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Requirement/PhpModuleRequirement.php:19
 #, php-format
 msgid "PHP Module: %s"
-msgstr ""
+msgstr "PHP-Modul: %s"
 
 #: /vagrant/modules/setup/library/Setup/Requirement/PhpVersionRequirement.php:15
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP-Version"
 
-#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:90
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:220
 #: /vagrant/modules/setup/application/forms/DatabaseCreationPage.php:111
+#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:90
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: /vagrant/modules/setup/application/forms/AuthenticationPage.php:23
 msgid ""
@@ -700,7 +724,7 @@ msgstr ""
 msgid "Please repeat the password given above to avoid typing errors."
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:101
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:107
 #, php-format
 msgid ""
 "Please see the %s for an extensive description on how to access and use this "
@@ -710,7 +734,7 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:78
 #: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:111
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: /vagrant/modules/setup/library/Setup/Steps/GeneralConfigStep.php:62
 #, php-format
@@ -727,7 +751,7 @@ msgstr ""
 
 #: /vagrant/modules/setup/application/views/scripts/form/setup-requirements.phtml:37
 msgid "Refresh"
-msgstr ""
+msgstr "Aktualisieren"
 
 #: /vagrant/modules/setup/application/views/scripts/form/setup-requirements.phtml:43
 #, php-format
@@ -736,7 +760,7 @@ msgstr ""
 
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:232
 msgid "Repeat password"
-msgstr ""
+msgstr "Passwort wiederholen"
 
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:86
 #: /vagrant/modules/setup/library/Setup/Steps/DatabaseStep.php:137
@@ -786,9 +810,9 @@ msgstr ""
 msgid "Setup Icinga Web 2"
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/WelcomePage.php:35
+#: /vagrant/modules/setup/application/forms/WelcomePage.php:36
 msgid "Setup Token"
-msgstr ""
+msgstr "Einrichtungstoken"
 
 #: /vagrant/modules/setup/application/views/scripts/index/parts/finish.phtml:25
 msgid "Show previous wizard-page"
@@ -798,16 +822,16 @@ msgstr ""
 msgid "Show the login page of Icinga Web 2"
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:49
+#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:50
 msgid "Skip"
-msgstr ""
+msgstr "Überspringen"
 
 #: /vagrant/modules/setup/application/forms/DatabaseCreationPage.php:201
-#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:227
 #: /vagrant/modules/setup/application/forms/LdapResourcePage.php:145
+#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:227
 #: /vagrant/modules/setup/application/forms/DbResourcePage.php:178
 msgid "Skip Validation"
-msgstr ""
+msgstr "Validierung überspringen"
 
 #: /vagrant/modules/setup/application/views/scripts/index/parts/finish.phtml:5
 msgid "Sorry! Failed to set up Icinga Web 2 successfully."
@@ -892,10 +916,10 @@ msgid ""
 "database."
 msgstr ""
 
-#: /vagrant/modules/setup/application/clicommands/TokenCommand.php:35
-#: /vagrant/modules/setup/application/clicommands/TokenCommand.php:67
 #: /vagrant/modules/setup/application/clicommands/ConfigCommand.php:39
 #: /vagrant/modules/setup/application/clicommands/ConfigCommand.php:140
+#: /vagrant/modules/setup/application/clicommands/TokenCommand.php:35
+#: /vagrant/modules/setup/application/clicommands/TokenCommand.php:67
 msgid ""
 "The argument --config expects a path to Icinga Web 2's configuration files"
 msgstr ""
@@ -920,8 +944,8 @@ msgid ""
 "webserver will serve files"
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:206
 #: /vagrant/modules/setup/application/forms/LdapResourcePage.php:126
+#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:206
 #: /vagrant/modules/setup/application/forms/DbResourcePage.php:96
 msgid "The configuration has been successfully validated."
 msgstr ""
@@ -987,8 +1011,9 @@ msgid ""
 "to not mix different schemas in the same database. If this is intentional, "
 "you can skip the validation and ignore this warning. If not, please provide "
 "a different database."
-msgstr "Es scheint so, als wäre die von dir konfigurierte Datenbank jene von "
-"Icinga. Bitte beachte, dass diese Datenbank-Konfiguration für die alleinige "
+msgstr ""
+"Es scheint so, als wäre die von dir konfigurierte Datenbank jene von Icinga. "
+"Bitte beachte, dass diese Datenbank-Konfiguration für die alleinige "
 "Verwendung durch Icinga Web 2 vorgesehen und dass es empfehlenswert ist, "
 "keine unterschiedlichen Schemas in der selben Datenbank einzusetzen. Falls "
 "dies Absicht ist, kannst du die Validierung überspringen und diese Warnung "
@@ -997,22 +1022,22 @@ msgstr "Es scheint so, als wäre die von dir konfigurierte Datenbank jene von "
 #: /vagrant/modules/setup/library/Setup/Requirement/ConfigDirectoryRequirement.php:38
 #, php-format
 msgid "The directory %s does not exist."
-msgstr ""
+msgstr "Das Verzeichnis %s existiert nicht."
 
 #: /vagrant/modules/setup/library/Setup/Requirement/ConfigDirectoryRequirement.php:32
 #, php-format
 msgid "The directory %s is not readable."
-msgstr ""
+msgstr "Das Verzeichnis %s ist nicht lesbar."
 
 #: /vagrant/modules/setup/library/Setup/Requirement/ConfigDirectoryRequirement.php:31
 #, php-format
 msgid "The directory %s is not writable."
-msgstr ""
+msgstr "Das Verzeichnis %s ist nicht beschreibbar."
 
 #: /vagrant/modules/setup/library/Setup/Requirement/ConfigDirectoryRequirement.php:26
 #, php-format
 msgid "The directory %s is read- and writable."
-msgstr ""
+msgstr "Das Verzeichnis %s ist lesbar und beschreibbar."
 
 #: /vagrant/modules/setup/application/views/scripts/form/setup-modules.phtml:15
 msgid ""
@@ -1063,17 +1088,20 @@ msgstr ""
 msgid "The type of the resource being used for this authenticaton provider"
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:80
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:86
 #, php-format
 msgid "The user \"%s\" is a member of the system group \"icingaweb2\""
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:56
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:62
 msgid ""
 "This wizard will guide you through the configuration of Icinga Web 2. Once "
 "completed and successfully finished you are able to log in and to explore "
 "all the new and stunning features!"
 msgstr ""
+"Dieser Assistent wird Sie durch die Konfiguration von Icinga Web 2 führen. "
+"Sobald dies erfolgreich abgeschlossen ist, können Sie sich anmelden und all "
+"die neuen und atemberaubenden Funktionen erkunden!"
 
 #: /vagrant/modules/setup/application/forms/UserGroupBackendPage.php:39
 msgid ""
@@ -1088,7 +1116,7 @@ msgid ""
 "required."
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:73
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:79
 msgid ""
 "To run this wizard a user needs to authenticate using a token which is "
 "usually provided to him by an administrator who'd followed the instructions "
@@ -1126,11 +1154,6 @@ msgstr ""
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:208
 #, php-format
 msgid "Unable to create account \"%s\". An error occured:"
-msgstr ""
-
-#: /vagrant/modules/setup/library/Setup/Utils/MakeDirStep.php:54
-#, php-format
-msgid "Unable to create directory \"%s\" in \"%s\". An error occured:"
 msgstr ""
 
 #: /vagrant/modules/setup/library/Setup/Steps/UserGroupStep.php:190
@@ -1198,17 +1221,17 @@ msgstr ""
 msgid "User Object Class"
 msgstr ""
 
-#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:86
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:155
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:187
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:208
 #: /vagrant/modules/setup/application/forms/DatabaseCreationPage.php:100
+#: /vagrant/modules/setup/library/Setup/Steps/ResourceStep.php:86
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: /vagrant/modules/setup/application/forms/AdminAccountPage.php:258
 msgid "Username already exists."
-msgstr ""
+msgstr "Benutzername existiert bereits."
 
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:126
 #, php-format
@@ -1223,8 +1246,8 @@ msgstr ""
 msgid "Validation In Progress"
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:188
 #: /vagrant/modules/setup/application/forms/LdapResourcePage.php:108
+#: /vagrant/modules/setup/application/forms/AuthBackendPage.php:188
 msgid "Validation Log"
 msgstr ""
 
@@ -1236,11 +1259,11 @@ msgstr ""
 #: /vagrant/modules/setup/application/views/scripts/index/index.phtml:33
 msgctxt "setup.progress"
 msgid "Welcome"
-msgstr ""
+msgstr "Willkommen"
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:48
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:54
 msgid "Welcome to the configuration of Icinga Web 2!"
-msgstr ""
+msgstr "Willkommen zur Einrichtung von Icinga Web 2!"
 
 #: /vagrant/modules/setup/application/clicommands/ConfigCommand.php:152
 #, php-format
@@ -1257,7 +1280,7 @@ msgstr ""
 msgid "You are running PHP version %s."
 msgstr ""
 
-#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:32
+#: /vagrant/modules/setup/application/forms/LdapDiscoveryPage.php:33
 msgid ""
 "You can use this page to discover LDAP or ActiveDirectory servers  for "
 "authentication. If you don' want to execute a discovery, just skip this step."
@@ -1275,7 +1298,7 @@ msgid ""
 "not be able to log into Icinga Web 2."
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:51
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:57
 msgid ""
 "You've already completed the configuration of Icinga Web 2. Note that most "
 "of your configuration files will be overwritten in case you'll re-configure "
@@ -1298,7 +1321,7 @@ msgid ""
 "%1$s right after it has successfully been set up."
 msgstr ""
 
-#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:82
+#: /vagrant/modules/setup/application/views/scripts/form/setup-welcome.phtml:88
 msgid "Your webserver's user is a member of the system group \"icingaweb2\""
 msgstr ""
 
@@ -1312,7 +1335,7 @@ msgstr ""
 
 #: /vagrant/modules/setup/library/Setup/Steps/AuthenticationStep.php:127
 msgid "a database"
-msgstr ""
+msgstr "eine Datenbank"
 
 #: /vagrant/modules/setup/library/Setup/Requirement/ClassRequirement.php:17
 #: /vagrant/modules/setup/library/Setup/Requirement/ClassRequirement.php:23
