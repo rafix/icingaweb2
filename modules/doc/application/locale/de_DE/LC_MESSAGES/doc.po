@@ -1,0 +1,151 @@
+# Icinga Web 2 - Head for multiple monitoring backends.
+# Copyright (C) 2016 Icinga Development Team
+# This file is distributed under the same license as Doc Module.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doc Module (2.2.0)\n"
+"Report-Msgid-Bugs-To: dev@icinga.org\n"
+"POT-Creation-Date: 2016-03-31 12:40+0000\n"
+"PO-Revision-Date: 2016-03-31 15:27+0200\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: /vagrant/modules/doc/library/Doc/DocController.php:69
+#: /vagrant/modules/doc/library/Doc/DocController.php:97
+#, php-format
+msgid "%s Documentation"
+msgstr "%s Dokumentation"
+
+#: /vagrant/modules/doc/application/views/scripts/style/guide.phtml:101
+msgid "Blockquote"
+msgstr "Blockzitat"
+
+#: /vagrant/modules/doc/library/Doc/Renderer/DocSectionRenderer.php:68
+#, php-format
+msgid "Chapter %s not found"
+msgstr "Kapitel %s nicht gefunden"
+
+#: /vagrant/modules/doc/application/views/scripts/style/guide.phtml:69
+msgid "Comment List"
+msgstr "Kommentarliste"
+
+#: /vagrant/modules/doc/configuration.php:19
+msgid "Developer - Style"
+msgstr "Entwickler - Stil"
+
+#: /vagrant/modules/doc/configuration.php:24
+msgid "Doc"
+msgstr "Dokumentation"
+
+#: /vagrant/modules/doc/configuration.php:6
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: /vagrant/modules/doc/application/controllers/IndexController.php:23
+msgctxt "Tab title"
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: /vagrant/modules/doc/library/Doc/DocParser.php:59
+#, php-format
+msgid "Documentation directory '%s' is not readable"
+msgstr "Dokumentations-Verzeichnis '%s' ist nicht lesbar"
+
+#: /vagrant/modules/doc/application/controllers/IcingawebController.php:29
+#: /vagrant/modules/doc/application/controllers/SearchController.php:95
+msgid "Documentation for Icinga Web 2 is not available"
+msgstr "Dokumentation für Icinga Web 2 ist nicht verfügbar"
+
+#: /vagrant/modules/doc/application/controllers/ModuleController.php:40
+#, php-format
+msgid "Documentation for module '%s' is not available"
+msgstr "Dokumentation für das Modul '%s' ist nicht verfügbar"
+
+#: /vagrant/modules/doc/library/Doc/Renderer/DocTocRenderer.php:88
+msgid "Documentation is empty."
+msgstr "Dokumentation ist leer."
+
+#: /vagrant/modules/doc/application/controllers/StyleController.php:35
+msgid "Icons"
+msgstr "Symbole"
+
+#: /vagrant/modules/doc/application/controllers/StyleController.php:36
+msgid "List all available icons"
+msgstr "Liste alle verfügbaren Symbole auf"
+
+#: /vagrant/modules/doc/application/views/scripts/index/index.phtml:16
+msgid "List all modules for which documentation is available"
+msgstr "Liste alle Module, für die Dokumentation verfügbar ist, auf"
+
+#: /vagrant/modules/doc/application/controllers/ModuleController.php:76
+#, php-format
+msgid "Module '%s' is not installed"
+msgstr "Modul '%s' ist nicht installiert"
+
+#: /vagrant/modules/doc/application/controllers/ModuleController.php:59
+msgctxt "Tab title"
+msgid "Module Documentation"
+msgstr "Modul-Dokumentation"
+
+#: /vagrant/modules/doc/application/views/scripts/index/index.phtml:13
+msgid "Module documentations"
+msgstr "Modul-Dokumentationen"
+
+#: /vagrant/modules/doc/application/views/scripts/search/index.phtml:5
+msgid "No documentation found matching the filter"
+msgstr "Zu diesem Filter wurde keine Dokumentation gefunden"
+
+#: /vagrant/modules/doc/library/Doc/Renderer/DocSearchRenderer.php:115
+#, php-format
+msgctxt "search.render.section.link"
+msgid "Show all matches of \"%s\" in the chapter \"%s\""
+msgstr "Zeige alle Treffer für \"%s\" im Kapitel \"%s\""
+
+#: /vagrant/modules/doc/library/Doc/Renderer/DocSearchRenderer.php:123
+#, php-format
+msgctxt "search.render.section.link"
+msgid "Show all matches of \"%s\" in the section \"%s\" of the chapter \"%s\""
+msgstr "Zeige alle Treffer für \"%s\" im Abschnitt \"%s\" des Kapitels \"%s\""
+
+#: /vagrant/modules/doc/library/Doc/Renderer/DocTocRenderer.php:113
+#, php-format
+msgctxt "toc.render.section.link"
+msgid "Show the chapter \"%s\""
+msgstr "Zeige das Kapitel \"%s\""
+
+#: /vagrant/modules/doc/application/views/scripts/index/index.phtml:10
+msgid "Show the documentation's table of contents for Icinga Web 2"
+msgstr "Zeige das Inhaltsverzeichnis der Dokumentation für Icinga Web 2"
+
+#: /vagrant/modules/doc/application/views/scripts/module/index.phtml:13
+#, php-format
+msgid "Show the documentation's table of contents for the %s"
+msgstr "Zeige das Inhaltsverzeichnis von %s"
+
+#: /vagrant/modules/doc/library/Doc/Renderer/DocTocRenderer.php:117
+#, php-format
+msgctxt "toc.render.section.link"
+msgid "Show the section \"%s\" of the chapter \"%s\""
+msgstr "Zeige den Abschnitt \"%s\" des Kapitels \"%s\""
+
+#: /vagrant/modules/doc/application/controllers/StyleController.php:29
+msgid "Style Guide"
+msgstr "Stil-Richtlinien"
+
+#: /vagrant/modules/doc/application/views/scripts/style/guide.phtml:74
+#: /vagrant/modules/doc/application/views/scripts/style/guide.phtml:87
+msgid "commented"
+msgstr "kommentierte"
+
+#: /vagrant/modules/doc/application/views/scripts/style/guide.phtml:75
+#: /vagrant/modules/doc/application/views/scripts/style/guide.phtml:88
+msgid "some time ago"
+msgstr "vor einiger Zeit"
