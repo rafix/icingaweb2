@@ -144,6 +144,10 @@ abstract class Requirement
      */
     public function getStateText()
     {
+        $state = $this->getState();
+        if ($this->stateText === null) {
+            return $state ? $this->getTextAvailable() : $this->getTextMissing();
+        }
         return $this->stateText;
     }
 
