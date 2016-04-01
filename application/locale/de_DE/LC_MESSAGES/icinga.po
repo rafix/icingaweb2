@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icinga Web 2 (None)\n"
 "Report-Msgid-Bugs-To: dev@icinga.org\n"
-"POT-Creation-Date: 2016-03-29 07:39+0000\n"
-"PO-Revision-Date: 2016-03-29 10:27+0200\n"
+"POT-Creation-Date: 2016-04-01 16:42+0000\n"
+"PO-Revision-Date: 2016-04-01 18:45+0200\n"
 "Last-Translator: Thomas Gelf <thomas@gelf.net>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -46,6 +46,11 @@ msgstr "%s (%%value%%) hat den falschen MIME-Type \"%%type%%\""
 #, php-format
 msgid "%s (%%value%%) has no MIME type"
 msgstr "%s (%%value%%) hat keinen MIME-Typ"
+
+#: /vagrant/library/Icinga/Web/Form/Decorator/FormHints.php:61
+#, php-format
+msgid "%s Required field"
+msgstr "%s Pflichtfeld"
 
 #: /vagrant/library/Icinga/Date/DateFormatter.php:171
 #, php-format
@@ -163,11 +168,11 @@ msgstr "Zum Dashboard hinzufügen"
 msgid "Add To Menu"
 msgstr "Zum Menü hinzufügen"
 
-#: /vagrant/application/views/scripts/user/list.phtml:34
+#: /vagrant/application/views/scripts/user/list.phtml:32
 msgid "Add a New User"
 msgstr "Neuen Benutzer anlegen"
 
-#: /vagrant/application/views/scripts/group/list.phtml:34
+#: /vagrant/application/views/scripts/group/list.phtml:32
 msgid "Add a New User Group"
 msgstr "Neue Gruppe anlegen"
 
@@ -1542,11 +1547,11 @@ msgstr ""
 "Keine Authentifizierungsmethode verfügbar. Wurde bei der Installation von "
 "Icinga Web 2 eine authentication.ini erstellt?"
 
-#: /vagrant/application/views/scripts/group/list.phtml:24
+#: /vagrant/application/views/scripts/group/list.phtml:22
 msgid "No backend found which is able to list user groups"
 msgstr "Kein Backend gefunden, um Benutzergruppen aufzulisten"
 
-#: /vagrant/application/views/scripts/user/list.phtml:24
+#: /vagrant/application/views/scripts/user/list.phtml:22
 msgid "No backend found which is able to list users"
 msgstr "Kein Backend gefunden, um Benutzer aufzulisten"
 
@@ -1569,13 +1574,13 @@ msgstr ""
 msgid "No roles found."
 msgstr "Es wurden keine Rollen gefunden"
 
-#: /vagrant/application/views/scripts/group/list.phtml:46
+#: /vagrant/application/views/scripts/group/list.phtml:44
 msgid "No user groups found matching the filter"
 msgstr ""
 "Es wurden keine Benutzergruppen gefunden, welche den Filterkriterien "
 "entsprechen"
 
-#: /vagrant/application/views/scripts/user/list.phtml:46
+#: /vagrant/application/views/scripts/user/list.phtml:44
 msgid "No users found matching the filter"
 msgstr "Es wurde kein Benutzer gefunden, der den Filterkriterien entspricht"
 
@@ -1774,8 +1779,8 @@ msgstr "Abfragespalte “%s” wurde in Tabelle “%s” nicht gefunden"
 msgid "Ready to search"
 msgstr "Bereit zur Suche"
 
-#: /vagrant/application/views/scripts/user/list.phtml:55
-#: /vagrant/application/views/scripts/group/list.phtml:55
+#: /vagrant/application/views/scripts/user/list.phtml:53
+#: /vagrant/application/views/scripts/group/list.phtml:53
 #: /vagrant/application/views/scripts/group/show.phtml:77
 msgid "Remove"
 msgstr "Entfernen"
@@ -1868,7 +1873,7 @@ msgstr "Dieses Mitglied entfernen"
 msgid "Remove this part of your filter"
 msgstr "Klicken, um diesen Teil des Filters zu löschen"
 
-#: /vagrant/application/views/scripts/user/list.phtml:84
+#: /vagrant/application/views/scripts/user/list.phtml:82
 #, php-format
 msgid "Remove user %s"
 msgstr "Benutzer %s entfernen"
@@ -1883,7 +1888,7 @@ msgstr "Benutzer %s entfernen"
 msgid "Remove user backend %s"
 msgstr "Benutzerbackend %s entfernen"
 
-#: /vagrant/application/views/scripts/group/list.phtml:88
+#: /vagrant/application/views/scripts/group/list.phtml:86
 #, php-format
 msgid "Remove user group %s"
 msgstr "Benutzergruppe %s entfernen"
@@ -2128,7 +2133,7 @@ msgstr "Stacktrace anzeigen"
 msgid "Show dashlet %s"
 msgstr "Dashlet %s anzeigen"
 
-#: /vagrant/application/views/scripts/user/list.phtml:70
+#: /vagrant/application/views/scripts/user/list.phtml:68
 #: /vagrant/application/views/scripts/group/show.phtml:93
 #, php-format
 msgid "Show detailed information about %s"
@@ -2139,7 +2144,7 @@ msgstr "Zeige detaillierte Informationen über %s"
 msgid "Show detailed information for group %s"
 msgstr "Zeige detaillierte Informationen über die Gruppe %s"
 
-#: /vagrant/application/views/scripts/group/list.phtml:72
+#: /vagrant/application/views/scripts/group/list.phtml:70
 #, php-format
 msgid "Show detailed information for user group %s"
 msgstr "Zeige detaillierte Informationen über die Benutzergruppe %s"
@@ -2809,7 +2814,7 @@ msgstr "Backend für Benutzer"
 msgid "User Backends"
 msgstr "Backends für Benutzer"
 
-#: /vagrant/application/views/scripts/group/list.phtml:53
+#: /vagrant/application/views/scripts/group/list.phtml:51
 #: /vagrant/application/controllers/GroupController.php:69
 #: /vagrant/application/controllers/UserController.php:101
 #: /vagrant/library/Icinga/Authentication/UserGroup/LdapUserGroupBackend.php:465
@@ -2898,7 +2903,7 @@ msgstr ""
 msgid "Usergroups"
 msgstr "Benutzergruppen"
 
-#: /vagrant/application/views/scripts/user/list.phtml:53
+#: /vagrant/application/views/scripts/user/list.phtml:51
 #: /vagrant/application/views/scripts/group/show.phtml:75
 #: /vagrant/application/controllers/GroupController.php:105
 #: /vagrant/application/controllers/UserController.php:69
