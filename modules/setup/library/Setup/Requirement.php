@@ -57,6 +57,20 @@ abstract class Requirement
     protected $alias;
 
     /**
+     * The text to display if the given requirement is fulfilled
+     *
+     * @var string
+     */
+    protected $textAvailable;
+
+    /**
+     * The text to display if the given requirement is not fulfilled
+     *
+     * @var string
+     */
+    protected $textMissing;
+
+    /**
      * Create a new requirement
      *
      * @param   array   $options
@@ -252,6 +266,48 @@ abstract class Requirement
     public function getAlias()
     {
         return $this->alias;
+    }
+
+    /**
+     * Set the text to display if the given requirement is fulfilled
+     *
+     * @param   string  $textAvailable
+     *
+     * @return  Requirement
+     */
+    public function setTextAvailable($textAvailable) {
+        $this->textAvailable = $textAvailable;
+        return $this;
+    }
+
+    /**
+     * Get the text to display if the given requirement is fulfilled
+     *
+     * @return  string
+     */
+    public function getTextAvailable() {
+        return $this->textAvailable;
+    }
+
+    /**
+     * Set the text to display if the given requirement is not fulfilled
+     *
+     * @param   string  $textMissing
+     *
+     * @return  Requirement
+     */
+    public function setTextMissing($textMissing) {
+        $this->textMissing = $textMissing;
+        return $this;
+    }
+
+    /**
+     * Get the text to display if the given requirement is not fulfilled
+     *
+     * @return  string
+     */
+    public function getTextMissing() {
+        return $this->textMissing;
     }
 
     /**
