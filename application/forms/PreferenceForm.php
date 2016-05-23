@@ -156,6 +156,10 @@ class PreferenceForm extends Form
      */
     public function createElements(array $formData)
     {
+        if (setlocale(LC_ALL, 0) === 'C') {
+            $this->info($this->translate('Your current locale seems not to be installed'), false);
+        }
+
         if (! (bool) Config::app()->get('themes', 'disabled', false)) {
             $themes = Icinga::app()->getThemes();
             if (count($themes) > 1) {
