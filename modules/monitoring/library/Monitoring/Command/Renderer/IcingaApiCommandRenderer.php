@@ -11,6 +11,7 @@ use Icinga\Module\Monitoring\Command\Object\DeleteCommentCommand;
 use Icinga\Module\Monitoring\Command\Object\DeleteDowntimeCommand;
 use Icinga\Module\Monitoring\Command\Object\ProcessCheckResultCommand;
 use Icinga\Module\Monitoring\Command\Object\RemoveAcknowledgementCommand;
+use Icinga\Module\Monitoring\Command\Object\ScheduleHostDowntimeCommand;
 use Icinga\Module\Monitoring\Command\Object\ScheduleServiceCheckCommand;
 use Icinga\Module\Monitoring\Command\Object\ScheduleServiceDowntimeCommand;
 use Icinga\Module\Monitoring\Command\Object\SendCustomNotificationCommand;
@@ -60,18 +61,42 @@ class IcingaApiCommandRenderer implements IcingaCommandRendererInterface
      *
      * @param   array           $data
      * @param   MonitoredObject $object
+     * @param   bool            $allServices
      *
      * @return  array
      */
-    protected function applyFilter(array &$data, MonitoredObject $object)
+    protected function applyFilter(array &$data, MonitoredObject $object, $allServices = false)
     {
         if ($object->getType() === $object::TYPE_HOST) {
             /** @var \Icinga\Module\Monitoring\Object\Host $object */
-            $data['host'] = $object->getName();
+            if ($allServices) {
+                $data += array(
+                    'type' => 'Service',
+                    'filter' => 'host.name==' . $this->escapeIcinga2String($object->getName())
+                );
+            } else {
+                $data['host'] = $object->getName();
+            }
         } else {
             /** @var \Icinga\Module\Monitoring\Object\Service $object */
             $data['service'] = sprintf('%s!%s', $object->getHost()->getName(), $object->getName());
         }
+    }
+
+    /**
+     * Return $rawString as an Icinga 2 config language string literal
+     *
+     * @param   string  $rawString
+     *
+     * @return  string
+     */
+    protected function escapeIcinga2String($rawString)
+    {
+        return '"' . str_replace(
+            array('"', '\\', "\t", "\r", "\n", "\x07", "\f"),
+            array('\"', '\\\\', '\t', '\r', '\n', '\b', '\f'),
+            $rawString
+        ) . '"';
     }
 
     /**
@@ -148,7 +173,11 @@ class IcingaApiCommandRenderer implements IcingaCommandRendererInterface
             'fixed'         => $command->getFixed(),
             'trigger_name'  => $command->getTriggerId()
         );
-        $this->applyFilter($data, $command->getObject());
+        $this->applyFilter(
+            $data,
+            $command->getObject(),
+            $command instanceof ScheduleHostDowntimeCommand && $command->getForAllServices()
+        );
         return IcingaApiCommand::create($endpoint, $data);
     }
 
